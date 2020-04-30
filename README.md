@@ -14,10 +14,11 @@ The Endpoints on this applications will fulfill the 3 distinguish requirements o
 Set Up
 ======
 In order to set up this project, please make sure you have:
---python 3.6.5, virtualenv==20.0.18 executable added to your environmental PATH
---activate virtualenv (command varies depending on system)
---mysqld and mysql 8.0.16 also added to your environmental PATH.
---make sure you are in dir where 'manage.py' is located
+	
+	--python 3.6.5, virtualenv==20.0.18 executable added to your environmental PATH
+	--activate virtualenv (command varies depending on system)
+	--mysqld and mysql 8.0.16 also added to your environmental PATH.
+	--make sure you are in dir where 'manage.py' is located
 
 
 Steps ahead:
