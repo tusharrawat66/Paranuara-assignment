@@ -27,7 +27,7 @@ Steps ahead:
 -- manually log into mysql and create a new database of your choice by using 'create database <name>; 	(I named my database "paranuaraWorld")
 -- make sure to change DATABASE credentials in settings.py
 
-Important:- In order to split 'fruits' and 'vegetables' from 'favouriteFood' make sure to go to python shell and execute the two line 
+Important:- In order to split 'fruits' and 'vegetables' from 'favouriteFood' make sure to go to Python 'Shell' and execute the two line 
 below:
 
 	import nltk 
