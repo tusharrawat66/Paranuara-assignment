@@ -84,10 +84,11 @@ Testing the Endpoints:
 ======================
 In order to test all the cases do the following first:
 - Stop the server if it's running using 'ctrl+c' then run these 2 commands: 
- 	--'python manage.py dumpdata paranuaraApp.People > people_backup.json'
- 	--'python manage.py dumpdata paranuaraApp.Company > company_backup.json'
+	--'python manage.py dumpdata paranuaraApp.People > people_backup.json'
+	--'python manage.py dumpdata paranuaraApp.Company > company_backup.json'
 
-		- run 'python manage.py test'
+
+run   "python manage.py test" on the terminal.
 
 On the console you'll notice the result of test cases written in test.py . I could have written more test cases but unfortunately time was constraint.
 
