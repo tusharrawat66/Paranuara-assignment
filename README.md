@@ -14,22 +14,24 @@ The Endpoints on this applications will fulfill the 3 distinguish requirements o
 Set Up
 ======
 In order to set up this project, please make sure you have:
---python 3.6.5, virtualenv executable added to your environmental PATH
+--python 3.6.5, virtualenv==20.0.18 executable added to your environmental PATH
+--activate virtualenv (command varies depending on system)
 --mysqld and mysql 8.0.16 also added to your environmental PATH	
---You will be in the root directory 'assignmentHivery' above 'paranuara'.
---activated virtualenv 
+--You will be in the root directory 'assignmentHivery' above 'paranuara'. 
+
 
 
 Steps ahead:
 ===========
 -- 'pip install -r requirements.txt' to install all the dependencies in your virtualenv.
--- manually log into mysql and create a new database of your choice by using 'create database <name>; (I named my database "paranuaraWorld")
+-- manually log into mysql and create a new database of your choice by using 'create database <name>; 	(I named my database "paranuaraWorld")
 -- make sure to change DATABASE credentials in settings.py
 
 Important: In order to split 'fruits' and 'vegetables' from 'favouriteFood' make sure to go to python shell
 		>>>import nltk 
 		>>>nltk.download('all')
-	  This procedure might take few seconds to minute depending upon your network and hardware.
+	 
+	 This procedure might take few seconds to minute depending upon your network and hardware.
 
 	  
 
@@ -79,8 +81,9 @@ Note: I used Postman App to hit all the endpoints mentioned above.
 Testing the Endpoints:
 ======================
 In order to test all the cases do the following first:
-- Stop the server if it's running using 'ctrl+c' then run these 2 commands 'python manage.py dumpdata paranuaraApp.People > people_backup.json' and 
-																			'python manage.py dumpdata paranuaraApp.Company > company_backup.json'
+- Stop the server if it's running using 'ctrl+c' then run these 2 commands: 
+ --'python manage.py dumpdata paranuaraApp.People > people_backup.json'
+ --'python manage.py dumpdata paranuaraApp.Company > company_backup.json'
 
 - run 'python manage.py test'
 
