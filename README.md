@@ -30,10 +30,10 @@ Steps ahead:
 Important:- In order to split 'fruits' and 'vegetables' from 'favouriteFood' make sure to go to python shell and execute the two line 
 below:
 
-import nltk 
-"\n",nltk.download('all')
+	import nltk 
+	nltk.download('all')
 	 
-	 This procedure might take few seconds to minute depending upon your network and hardware.
+ This procedure might take few seconds to minute depending upon your network and hardware.
 
 	  
 
