@@ -28,8 +28,8 @@ Steps ahead:
 -- make sure to change DATABASE credentials in settings.py
 
 Important: In order to split 'fruits' and 'vegetables' from 'favouriteFood' make sure to go to python shell
-		>>>import nltk 
-		>>>nltk.download('all')
+	-import nltk 
+	-nltk.download('all')
 	 
 	 This procedure might take few seconds to minute depending upon your network and hardware.
 
