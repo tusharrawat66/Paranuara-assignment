@@ -58,7 +58,7 @@ uploading json data to mysql would require:
 	
 	
 a)Given a company:
-	Method: 'GET', 'http://127.0.0.1:8000/paranuaraApp/empDetails/?company=<companyName>'
+	Method: 'GET', 'http://127.0.0.1:8000/paranuaraApp/empDetails/?company=companyName'
 	
 
 b)Given 2 people:
@@ -70,7 +70,7 @@ b)Given 2 people:
 	Note: (Key 'names' is mapped in the api and should always be used as it is.)
 
 c)Given 1 person:
-	Method: 'GET', ' http://127.0.0.1:8000/paranuaraApp/singleDualEntity/?name=<personName>'
+	Method: 'GET', ' http://127.0.0.1:8000/paranuaraApp/singleDualEntity/?name=personName'
 	
 
 Note: I used Postman App to hit all the endpoints mentioned above.
