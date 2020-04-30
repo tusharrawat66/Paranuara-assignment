@@ -83,9 +83,11 @@ Note: I used Postman App to hit all the endpoints mentioned above.
 Testing the Endpoints:
 ======================
 In order to test all the cases do the following first:
-- Stop the server if it's running using 'ctrl+c' then run these 2 commands: 
-	--'python manage.py dumpdata paranuaraApp.People > people_backup.json'
-	--'python manage.py dumpdata paranuaraApp.Company > company_backup.json'
+
+Stop the server if it's running using 'ctrl+c' then run the 2 commands below: 
+	
+	python manage.py dumpdata paranuaraApp.People > people_backup.json
+	python manage.py dumpdata paranuaraApp.Company > company_backup.json
 
 
 run   "python manage.py test" on the terminal.
